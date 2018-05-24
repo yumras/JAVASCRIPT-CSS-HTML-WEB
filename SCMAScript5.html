@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+<script>
+	/*
+	// #1 - indexOf / lastIndexOf
+	var array1 = [1, 2, 3, 4, 5];
+
+	alert('Array.isArray(array1): ' + Array.isArray(array1));
+	alert('Array.isArray(6): ' + Array.isArray(6));
+	alert('array1.indexOf(4): ' + array1.indexOf(4));
+	alert('array1.lastIndexOf(2): ' + array1.lastIndexOf(2));
+	alert('array1.lastIndexOf(6): ' + array1.lastIndexOf(6));
+	*/
+
+	/*
+	// #2 - forEach / map
+	var array1 = [1, 2, 3, 4, 5];
+	var sum = 0;
+	var out = '';
+
+	array1.forEach(function (value, index, array) {
+		sum += value;
+		out += 'index ' + index + ' 의 배열요소 : ' + value + '\n';
+
+		if (index == array.length - 1) {
+			out += '배열 요소들의 합은 ' + sum + ' 입니다.';
+		}
+	});
+	alert(out);
+
+	out = array1.map(function (value) {
+		return value + 10;
+	});
+	alert(out);
+	*/
+
+	/*
+	// #3 - filter, every, some
+	var array1 = [1, 2, 'apple', 'orange', 4];
+	var array2 = [2, 4, 6, 8, 9];
+
+	function isString(value, index, array) {
+		if (typeof (value) == 'string') {
+			return true;
+		}
+	}
+	alert(array1.filter(isString));
+
+	function overOne(value, index, array){
+		if (value > 1) {
+			return true;
+		}
+	}
+
+	alert(array2.every(overOne));
+	alert(array2.some(overOne));
+
+	function checkEven(value, index, array) {
+		if ((value % 2) == 0) {
+			return true;
+		}
+	}
+	alert(array2.every(checkEven));
+	alert(array2.some(checkEven));
+	*/
+
+
+	// #4 - reduce, reduceRight
+	var array1 = [1, 2, 3, 4, 5];
+
+
+	
+</script>
+</html>
