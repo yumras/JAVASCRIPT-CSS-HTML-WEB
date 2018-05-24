@@ -1,0 +1,1271 @@
+03.13
+[basichtml.html]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    hello world <br>
+    <input type="text" placeholder="값을 입력하세요"
+    maxlength="5" onclick="alert(1)"> <br>
+    출생지
+    <!-- name을 같은 이름으로 묶으면 한 그룹으로 인식 -->
+    한국
+    <input type="radio" name="bornplace">
+    미국
+    <input type="radio" name="bornplace">
+    기타
+    <input type="radio" name="bornplace">
+
+    <br>
+    id : <input type="text"> <br>
+    password : <input type="password"> <br>
+
+    <input type="button" value="로그인"> <br>
+
+    <font size="5" color="blue">hello world</font> <br>
+    <font size="10" color="green">hello world</font> <br>
+
+    생일 월
+    <select name="" id="">
+      <option value="">1월</option>
+      <option value="">2월</option>
+      <option value="" selected="selected">3월</option>
+      <option value="">4월</option>
+      <option value="">5월</option>
+      <option value="">6월</option>
+      <option value="">7월</option>
+      <option value="">8월</option>
+      <option value="">9월</option>
+      <option value="">10월</option>
+      <option value="">11월</option>
+      <option value="">12월</option>
+    </select>
+
+    <br>
+    <textarea name="name" rows="18" cols="40"></textarea>
+
+    <ol>
+      <li>HTML</li>
+      <li>JAVASCRIPT</li>
+      <li>CSS</li>
+    </ol>
+
+    <ul>
+      <li>HTML</li>
+      <li>JAVASCRIPT</li>
+      <li>CSS</li>
+    </ul>
+
+    <img src="http://helper1004.kr/data/file/gallery/thumb-2113290562_kqCUenYW_a3b47e060d991835de6c62c1fa9a79ac4dac3fa5_840x560.jpg" alt="">
+
+  </body>
+</html>
+
+
+
+03.20
+[basichtml2.html]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text"> <br>
+    <input type="password"> <br>
+    한국 <input type="radio" name="country">
+    중국 <input type="radio" name="country">
+    일본 <input type="radio" name="country"> <br>
+    <input type="button" value="버튼"> <br>
+    <font size="5" color="red">빨간색 5</font> <br>
+    <font size="7" color="blue">파란색 7</font> <br>
+    <select name="" id="">
+      <option value="">a</option>
+      <option value="">b</option>
+      <option value="">c</option>
+      <option value="">d</option>
+    </select> <br>
+    <textarea name="" id="" cols="20" rows="5"></textarea>
+
+    <ol type="I">
+      <li>HTML</li>
+      <li>JAVASCRIPT</li>
+      <li>CSS</li>
+      <li>node.js</li>
+      <li>swift</li>
+      <li>scala</li>
+    </ol>
+
+    <ul>
+      <li>HTML</li>
+      <li>JAVASCRIPT</li>
+      <li>CSS</li>
+      <li>node.js</li>
+      <li>swift</li>
+      <li>scala</li>
+    </ul>
+
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <u>underline</u> <br>
+    <i>italic</i> <br>
+    <b>bold</b> <br>
+
+    <span>오늘 날짜 </span><span>20</span><span> 일</span><span> =>영역나누기</span>
+    <div>div</div><div>div</div><div>div</div><div>div</div><div>div</div>
+
+<i><a href="https://www.naver.com">naver</a></i>
+    <a href="https://www.naver.com"><i>naver</i></a>  <!-- 이게 더 직관적 -->
+    <a href="https://www.daum.net">d<i>a</i><b>um</b></a>
+    <b><a href="https://www.google.com">google</a></b>
+
+
+</body>
+
+</html>
+
+
+[회원가입.html]
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>회원가입 페이지</title>
+</head>
+<body>
+<font  size="7" color="green"><center>회원가입</center></font><br><br>
+아이디 : <input type="text" name="" value=""> </br>
+비밀번호 : <input type="password"> </br>
+재확인 : <input type="password"> </br>
+이름 : <input type="text" name="" value=""> </br>
+남자<input type="radio" name="gender">
+여자<input type="radio" name="gender">
+</br></br>
+생년월일 </br>
+연도 <input type="text" name="" value=""size="10">
+월 <select name="" name="">
+  <option value="">1월</option>
+  <option value="">2월</option>
+  <option value="">3월</option>
+  <option value="">4월</option>
+  <option value="">5월</option>
+  <option value="">6월</option>
+  <option value="">7월</option>
+  <option value="">8월</option>
+  <option value="">9월</option>
+  <option value="">10월</option>
+  <option value="">11월</option>
+  <option value="">12월</option>
+</select>
+일 <input type="text"  name="" value="" size="5"> </br>
+휴대폰번호 <input type="text" name="" value="">
+<input type="button" name="" value="인증">
+인증번호 <input type="text" name="" value="">
+<input type="button" name="" value="확인">
+</br></br>
+<input type="button" name="" value="가입하기" size="10">
+
+
+
+</body>
+
+</html>
+
+[글쓰기.html]
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>글쓰기</title>
+</head>
+
+<body>
+  <font size="7" color="blue"><center>글쓰기</center></font>
+  <input type="text" name="" value="" placeholder="제목"> </br></br>
+  <textarea name="name" rows="8" cols="80" placeholder="글을 입력하세요"></textarea></br></br>
+  공개글<input type="radio" name="open" value="">
+  비밀글<input type="radio" name="open" value=""></br></br>
+  <input type="button" name="" value="글쓰기">
+  <input type="button" name="" value="취소">
+
+</body>
+
+</html>
+
+
+[table.html]
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <table border="10" width="400" height="400">
+    <tr>
+      <td colspan="4"></td>
+
+
+
+      <td rowspan="4"></td>
+    </tr>
+    <tr>
+      <td rowspan="4"></td>
+      <td rowspan="2"></td>
+      <td colspan="2"></td>
+
+
+    </tr>
+    <tr>
+
+
+      <td></td>
+      <td rowspan="2"></td>
+
+    </tr>
+    <tr>
+
+      <td colspan="2"></td>
+
+
+    </tr>
+    <tr>
+
+      <td colspan="4"></td>
+
+
+
+    </tr>
+  </table>
+<br><br>
+<table border="10" width="400" height="400">
+  <tr>
+    <td colspan="2"></td>
+
+    <td colspan="2" rowspan="2"></td>
+
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+
+
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2"></td>
+
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+
+
+    <td colspan="2"></td>
+
+  </tr>
+</table>
+</body>
+
+</html>
+
+
+03.27
+[table2.html]
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <table border="1" width="900" height="700">
+    <tr>
+      <td colspan="3" rowspan="3"></td>
+
+
+      <td></td>
+      <td colspan="4"></td>
+
+
+
+    </tr>
+    <tr>
+
+
+
+      <td></td>
+      <td rowspan="3"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+
+
+
+      <td></td>
+
+      <td></td>
+      <td colspan="2" rowspan="3"></td>
+
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+
+      <td></td>
+
+
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="2"></td>
+
+      <td></td>
+      <td></td>
+      <td></td>
+
+
+    </tr>
+    <tr>
+      <td colspan="8"></td>
+
+
+
+
+
+
+
+    </tr>
+
+</table>
+</body>
+
+</html>
+
+
+[이력서]
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<br><br>
+1. 인적사항
+<table border="1" width="700" height="200" id="table1" name="tables">
+  <tr>
+    <td rowspan="2">사진</td>
+    <td>한글이름</td>
+    <td><input type="text" name="" value="" placeholder="예) 홍길동"></td>
+    <td>주민등록번호</td>
+    <td><input type="text" name="" value="" placeholder="000000-0000000"></td>
+  </tr>
+  <tr>
+    <!-- <td></td> -->
+    <td>영문이름</td>
+    <td><input type="text" name="" value="" placeholder="예) Gil-dong Hong"></td>
+    <td>생년월일</td>
+    <td><input type="text" name="" value="" placeholder="6자리만 입력"></td>
+  </tr>
+  <tr>
+    <td>주소</td>
+    <td colspan="4"><input type="text" name="" value="" size="70" placeholder="시, 군, 구">
+      <input type="button" name="" value="주소검색"><br>
+    <input type="text" name="" value="" size="81" placeholder="세부 주소"> </td>
+    <!-- <td></td> -->
+    <!-- <td></td> -->
+    <!-- <td></td> -->
+  </tr>
+</table>
+</br></br>
+
+2.학력사항
+<table border="2" width="700" height="400" id="table2" name="tables">
+  <tr>
+    <td>학교명</td>
+    <td>전공</td>
+    <td>입학일자</td>
+    <td>졸업일자</td>
+  </tr>
+  <tr>
+    <td><input type="text" name="" value="" placeholder="예) 한국 폴리텍 대학교"></td>
+    <td><input type="text" name="" value="" placeholder="예) 스마트금융"></td>
+    <td><input type="text" name="" value="" placeholder="예) 20010101"></td>
+    <td><input type="text" name="" value="" placeholder="예) 20020101"></td>
+  </tr>
+  <tr>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+  </tr>
+  <tr>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+  </tr>
+</table>
+</br>
+<input type="button" name="" value="학력사항 추가">
+</br></br></br>
+3.자격사항
+<table border="10" width="700" height="400" id="table3" name="tables">
+  <tr>
+    <td>자격증명</td>
+    <td>등급</td>
+    <td>취득일</td>
+    <td>발급기관</td>
+  </tr>
+  <tr>
+    <td><input type="text" name="" value="" placeholder="예) 컴퓨터 활용"></td>
+    <td><input type="text" name="" value="" placeholder="예) 1급"></td>
+    <td><input type="text" name="" value="" placeholder="예) 20010101"></td>
+    <td><input type="text" name="" value="" placeholder="예) 대한상공회의소"></td>
+  </tr>
+  <tr>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+  </tr>
+  <tr>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+    <td><input type="text" name="" value=""></td>
+  </tr>
+</table>
+</br>
+<input type="button" name="" value="자격사항 추가">
+</br></br></br>
+<input type="button" name="" value="이력서 제출">
+<input type="button" name="" value="취소">
+
+<body>
+</body>
+</html>
+
+
+
+04.03
+[cssStart]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <li id="html" style="color:blue">html</li>
+    <!-- css로 스타일 설정 해도 직접 지정하면 각각 변경 가능 -->
+    그리고
+    <li>javascript</li>
+    그리고
+    <li>css</li>
+  </body>
+</html>
+
+<!-- css=style(html안에 넣어도 되고 밑에 빼도 된다) -->
+<style media="screen">
+  li {
+    color : red;
+    font-size: 50px;
+  }
+  /* li 문법들을 css로 설정 */
+</style>
+<!-- css를 사용해서 통으로 묶어서 효과 설정 가능 -->
+
+
+[css1]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>html</h1>
+    <h2>javascript</h2>
+    <h3>css</h3>
+    <h4>mariadb</h4>
+    <h5>nodejs</h5>
+    <h6>polytech</h6>
+  </body>
+</html>
+<style media="screen">
+  h1 {
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    color: blue;
+    text-align: left;
+    text-decoration: overline;
+  }
+  h3 {
+    font-size: 10px;
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+  }
+  h4 {
+    font-size: 50px;
+    color: gray;
+    text-transform: capitalize;
+  }
+  h5 {
+    font-size: 25px;
+    color: gold;
+    text-transform: lowercase;
+  }
+  h6 {
+    font-size: 35px;
+    color: #795548;
+    text-transform: uppercase;
+  }
+</style>
+
+[selector]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+      a li {
+        color : red;
+      }
+      #javascript {
+        color : blue;
+      }
+      /* # = id 값에 css 스타일 넣을 때 (id는 한 문서에 한개씩만) */
+      .css {
+        color : teal;
+      }
+      /* . = class 값에 css 스타일 넣을 때 (class는 여러개 가능) */
+    </style>
+
+  </head>
+  <body>
+
+    <li>HTML</li>
+    <li id="javascript">JAVASCRIPT</li>
+    <!-- id 설정 -->
+    <li class="css">CSS</li>
+    <!-- class 설정 -->
+    <li id="javascript" class="css" style="color:darkmagenta; font-size:50px;">CSS1</li>
+    <!-- 우선순위 = 1. 내부 스타일 2. id 3. class 4. 태그 선택글(외부 스타일) -->
+    <!-- 설정 뒤에 !important 가 붙으면 붙은게 우선된다 -->
+    <a>
+      <li>css</li>
+      <div >
+        <li>css</li>
+      </div>
+    </a>
+    <li>css</li>
+    <!-- 전체 태그 말고 a 태그에만 설정하려면 a li {}(a 이하 div도 포함됨),
+    a 태그 자식태그(a 바로 밑)만 설정하려면 a>li{} -->
+  </body>
+</html>
+
+[css실습]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    h1{
+      color: green;
+    }
+    .h2 {
+      color: red;
+    }
+    #h3 {
+      color: blue;
+    }
+    h3 {
+      color: brown;
+    }
+    .ph3 {
+      color: gray;
+    }
+    #ph3 {
+      color: beige;
+    }
+    .ph4 {
+      color: gray;
+    }
+    #ph4 {
+      color: beige;
+    }
+    h4 {
+      color: blueviolet;
+    }
+    .h4b {
+      color: blueviolet;
+    }
+    .h4d {
+      color: darkblue;
+    }
+    #h4g {
+      color: gold;
+    }
+    #h4h {
+      color: hotpink;
+    }
+    #h4i {
+      color: indigo;
+    }
+    h5 {
+      color: purple;
+    }
+    #h5b {
+      color: brown;
+    }
+    .h5k {
+      color: khaki;
+    }
+    .h5m {
+      color: maroon;
+    }
+    .h5o {
+      color: orange;
+    }
+    .h5b {
+      color: brown;
+    }
+    .h5black .h5b {
+      color: black;
+    }
+    .h5blue .h5b {
+      color: blue;
+    }
+    h6 {
+      color: gold;
+    }
+    .ph6 h6 {
+      color: tomato;
+    }
+    .ph6 div h6 {
+      color: chocolate;
+    }
+
+
+
+
+
+  </style>
+  <body>
+    <h1>green</h1>
+    <h2 class = "h2">red</h2>
+    <h3 id="h3">blue</h3>
+  <div>
+    <h3>brown</h3>
+    <h3 class="ph3">gray</h3>
+    <h3 class="ph3" id="ph3">beige</h3>
+  </div>
+
+  <div>
+    <div>
+      <h3>brown</h3>
+      <h3 class="ph4">gray</h3>
+      <h3 class="ph4" id="ph4">beige</h3>
+    </div>
+  </div>
+---------------------------------------
+<h4>blueviolet</h4>
+<h4 class="h4b">blueviolet</h4>
+<h4 class="h4b">blueviolet</h4>
+<h4 class="h4d">darkblue</h4>
+<h4 class="h4d">darkblue</h4>
+<h4 class="h4" id="h4g">gold</h4>
+<h4 class="h4" id="h4h">hotpink</h4>
+<h4 class="h4" id="h4i">indigo</h4>
+<div>
+  <h5>purple</h5>
+  <h5 id="h5b">brown</h5>
+  <h5 class="h5k">khaki</h5>
+  <h5 class="h5k">khaki</h5>
+</div>
+---------------------------------------
+<div class="ph5">
+  <h5 class="h5m">maroon</h5>
+  <h5 class="h5m">maroon</h5>
+  <h5 class="h5o">orange</h5>
+  <h5 class="h5o">orange</h5>
+</div>
+<div>
+  <h5 class="h5b">brown</h5>
+</div>
+<div class="h5black">
+  <h5 class="h5b">black</h5>
+</div>
+<div class="h5blue">
+  <h5 class="h5b">blue</h5>
+</div>
+---------------------------------------
+<h6>gold</h6>
+<div class="ph6">
+  <h6>tomato</h6>
+</div>
+
+<div class="ph6">
+  <div>
+    <h6>chocolate</h6>
+  </div>
+</div>
+
+
+  </body>
+</html>
+
+05.02
+[css]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      .box1 {
+        width: 100px;
+        height: 4000px;
+        left:100px;
+        top:100px;
+        position: absolute;
+        background-color: red;
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        right:100px;
+        top:100px;
+        position: fixed;
+        background-color: yellow;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div> </div>
+      <div class="box1" > absolute</div>
+      <div class="box2" > 고정(fixed)</div>
+
+  </body>
+</html>
+
+[js]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      div:hover {
+        color:red;
+      }
+      #hover {
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hover">
+      hover
+    </div>
+  </body>
+  <script type="text/javascript">
+    var a = 10;
+    console.log(a);
+    for(var i =0; i<10; i++); {
+      document.getElementById('hover').innerHTML = i;
+    }
+    var car = {};
+    car.color = "red";
+    car.weight = "1000kg";
+    car.kind = "벤츠";
+  </script>
+</html>
+
+[js2]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+    console.log("1+1=", 1+1);
+    console.log("10+10=", 10+10);
+    console.log("100-60=", 100-60);
+    console.log("7*7=", 7*7);
+    console.log("20/3=", 20/3);
+
+    var a = 10;
+      if(a>5) {
+        console.log("big");
+      }
+      else {
+        console.log("small");
+      }
+
+  </script>
+</html>
+
+
+[js3]
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    10보다 큰가요?
+    <input type="text" id='number'>
+    <input type="button" value="판독" id='button'>
+  </body>
+  <script type="text/javascript">
+    var clickbutton = document.getElementById('button');
+
+    clickbutton.addEventListener('click'/*mouseover = 커서를 버튼 위에*/,function(){
+      var num = document.getElementById('number').value;
+      if(num>10) {
+        console.log("10보다 큼");
+      }
+      else {
+        console.log("10보다 작음");
+      }
+    });
+
+  </script>
+</html>
+
+
+05.08
+[js4]-atom
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    input {
+
+    }
+  </style>
+  <body>
+    <input type="text" id="textArea">
+    <input type="button" value="button" id="clickButton">
+  </body>
+  <script>
+    //document.getElementById('textArea').value>10
+    var button1 = document.getElementById('clickButton');
+    button1.addEventListener('click',function(){
+      if(document.getElementById('textArea').value>10){
+        console.log("10보다 큼")
+      }
+      else{
+        console.log("10보다 작음")
+      }
+    })
+
+
+  </script>
+</html>
+
+[js4]-chrome console
+
+document.getElementById('textArea')
+1.	<input type="text" id="textArea">
+var a1 = 0
+undefined
+a1
+0
+var car = { color:"red", kind:"벤츠", weight:"1000kg"}
+undefined
+car
+1.	{color: "red", kind: "벤츠", weight: "1000kg"}
+1.	color:"red"
+2.	kind:"벤츠"
+3.	weight:"1000kg"
+4.	__proto__:Object
+document.getElementById('textArea').value=10
+10
+document.getElementById('textArea').value=20
+20
+document.getElementById('textArea').value=30
+30
+
+[js4_1]-atom
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    input {
+
+    }
+  </style>
+  <body>
+    <input type="text" id="textArea1">
+    <input type="text" id="textArea2">
+    <input type="button" value="button" id="clickButton">
+  </body>
+  <script>
+    //document.getElementById('textArea').value>10
+    var button1 = document.getElementById('clickButton');
+    button1.addEventListener('click',function(){
+      if(Number(document.getElementById('textArea1').value)
+      + Number(document.getElementById('textArea2').value)>10){
+        console.log("합이 10보다 큼")
+      }
+      else{
+        console.log("합이 10보다 작음")
+      }
+    })
+
+    // Number() 대신에 parseInt() 사용 가능
+    // button1.addEventListener('click',function(){
+    //   if(parseInt(document.getElementById('textArea1').value)
+    //   + parseInt(document.getElementById('textArea2').value)>10){
+    //     console.log("합이 10보다 큼")
+    //   }
+    //   else{
+    //     console.log("합이 10보다 작음")
+    //   }
+    // })
+
+
+  </script>
+</html>
+[js4_1]-chrome console
+합이 10보다 큼
+합이 10보다 작음
+typeof(document.getElementById('textArea1').value)
+"string"
+parseInt(document.getElementById('textArea1').value)
+5
+typeof(Number(document.getElementById('textArea1').value))
+"number"
+typeof(parseInt(document.getElementById('textArea1').value))
+"number"
+
+
+[js5_for]-atom
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+
+  </style>
+  <body>
+
+  </body>
+  <script>
+    console.log("------------ < 1. % 사용 >------------------")
+    for(var i=0 ; i<=100 ; i++){
+      if(i%2 == 1){
+        console.log("i = ",i);
+      }
+    }
+    console.log("------------ < 2. % 사용 X >----------------")
+    for(var i=0 ; i<=100 ; i++){
+      if(parseInt(i/2) != parseInt((i+1)/2)){
+        console.log("i = ",i);
+      }
+    }
+    console.log("-------------------------------------------")
+  </script>
+</html>
+
+
+[js5_for]-atom
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style></style>
+  <body>
+
+  </body>
+  <script>
+/*
+    for(var i=0; i<10; i++){
+
+      for(var j=0; j<10; j++){
+        console.log("i, j = ", i, j);
+      }
+
+    }
+*/
+    for(var i=1; i<=8; i++){
+      var result="";
+      for(var j=1; j<=i*2-1; j++){
+          result += "*";
+        }
+      console.log(result)
+      }
+
+  </script>
+</html>
+
+
+05.15
+[javascriptReview.html]-atom
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" id="input1">
+    <input type="text" id="input2">
+    <input type="button" value="확인" id="checkButton">
+  </body>
+  <script>
+    document.getElementById('input1');
+    document.getElementById('input2');
+    var button = document.getElementById('checkButton');
+    button.addEventListener('click', function(){
+      var id = document.getElementById('input1').value;
+      var password = document.getElementById('input2').value;
+      if(id=="polytech"&&password=="12341234"){
+        alert("로그인 성공");
+      }else{
+        alert("로그인 실패");
+      }
+    })
+  </script>
+</html>
+
+
+[test.html]-atom
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+
+
+  /* for ( 1 ; 2 ; 4 ) {
+      3
+    }
+    1
+    234 234 234... 2가 false 될때까지
+
+    for( var i=0 ; i<10 ; i++){
+      console.log(i);
+    }
+    1: var i=0
+    2: i<10
+    3: console.log(i)
+    4: i++
+    var i=0;
+    i<10 console.log(i) i++
+  */
+
+    var cnt = 0;
+    var cnt1 = 0;
+
+    for( console.log(1) ; !console.log(2) ; console.log(4) ){
+      console.log(3)
+      cnt++
+      if(cnt == 3) break;
+    }
+/*
+    1
+    2
+    3
+    4
+    2
+    3
+    4
+    2
+    3
+*/
+
+
+    cnt = 0;
+    for( console.log('1-1') ; !console.log('1-2') ; console.log('1-4')){
+      console.log('1-3');
+      cnt1 = 0;
+      for (console.log('2-1'); !console.log('2-2'); console.log('2-4')){
+        console.log('2-3');
+        cnt1++
+        if(cnt1==3) break;
+      }
+      cnt++
+      if(cnt == 3) break;
+    }
+
+/*
+    1-1
+    1-2
+    1-3
+    2-1
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    1-4
+    1-2
+    1-3
+    2-1
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    1-4
+    1-2
+    1-3
+    2-1
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+*/
+
+
+
+
+  </script>
+</html>
+
+[triangle.html]-atom
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+  /*
+  *
+  ***
+  *****
+  *******
+  *********
+  ***********
+  *************
+  ***************
+  */
+/*
+  // 1중 포문만 쓰고
+    var out = "*";
+    for (var i=0; i<8; i++){
+      console.log(out);
+      out += "**";
+    }
+  // 2중 포문 쓰고
+    for(var i=0; i<8; i++){
+      var result="";
+      for(var j=1; j<=i*2+1; j++){
+          result += "*";
+        }
+      console.log(result)
+      }
+  // 추가 연습1 - repeat 사용
+      var one = "*";
+      for (var i=0; i<8; i++){
+        two = one.repeat((2*i)+1);
+        console.log(two);
+      }
+  // 추가 연습2 - Array 사용
+      var num1 = '*';
+      for (var i=0; i<8; i++) {
+        num2 = Array(2*(i+1)).join(num1)
+        console.log(num2);
+      }
+*/
+
+//------------------------------------------------------//
+
+
+  // 피라미드 역순
+  // 1중 포문만 쓰고
+    var out = "***************";
+    for (var i=0; i<8; i++){
+      console.log(out);
+      out = out.substring(0,out.length - 2);
+    }
+
+  // 2중 포문 쓰고
+    for(var i=0; i<8; i++){
+      var result="";
+      for(var j=0; j<15-(i*2); j++){
+          result += "*";
+        }
+      console.log(result)
+      }
+
+
+
+
+
+  </script>
+</html>
+
+
+
+

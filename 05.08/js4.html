@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    input {
+
+    }
+  </style>
+  <body>
+    <input type="text" id="textArea">
+    <input type="button" value="button" id="clickButton">
+  </body>
+  <script>
+    //document.getElementById('textArea').value>10
+    var button1 = document.getElementById('clickButton');
+    button1.addEventListener('click',function(){
+      if(document.getElementById('textArea').value>10){
+        console.log("10보다 큼")
+      }
+      else{
+        console.log("10보다 작음")
+      }
+    })
+
+
+  </script>
+</html>

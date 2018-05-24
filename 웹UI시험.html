@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+    #reg {
+      text-align: center;
+      font-size: 50px;
+      color: blue;
+    }
+
+    #name {
+      font-family: Arial;
+      font-style: italic;
+      color: green;
+    }
+
+    #id {
+      font-weight: 900;
+      color: blue;
+    }
+
+    #password {
+      text-shadow: 7px -7px 5px black;
+    }
+
+    #email {
+      letter-spacing: 0.8em;
+      color: hotpink;
+    }
+
+    #phone {
+      background: lightblue;
+    }
+
+    #cert {
+      font-family: bold;
+      color: purple;
+    }
+  </style>
+</head>
+
+<body>
+  <p id='reg'>
+    회원가입
+  </p>
+  </br>
+
+  <p id='name'>
+    이름 : <input type="text" name="" value="">
+  </p>
+
+  <p id='id'>
+    아이디 : <input type="text" name="" value="">
+    <input type="button" name="" value="중복확인">
+  </p>
+
+  <p id='password'>
+    비밀번호 : <input type="password">
+    </br></br>
+    비밀번호확인 : <input type="password">
+  </p>
+
+  <p id='email'>
+    이메일 : <input type="text" name="" value="">
+  </p>
+
+  성별(남, 여 중에 한개만 선택가능) 남자
+  <input type="radio" name="gender"> 여자
+  <input type="radio" name="gender">
+  </br></br>
+
+  <span id='phone'>
+    휴대폰</span> <select name="" name="">
+      <option value="">SKT</option>
+      <option value="">KT</option>
+      <option value="">LGT</option>
+    </select>
+  <input type="text" name="" value="" placeholder="휴대폰 번호(-제외)">
+  <input type="button" name="" value="인증번호 받기">
+  </br>
+
+  <p id='cert'>
+    인증번호 <input type="text" name="" value="">
+    <input type="button" name="" value="인증번호 확인">
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    input {
+
+    }
+  </style>
+  <body>
+    <input type="text" id="textArea1">
+    <input type="text" id="textArea2">
+    <input type="button" value="button" id="clickButton">
+  </body>
+  <script>
+    //document.getElementById('textArea').value>10
+    var button1 = document.getElementById('clickButton');
+    button1.addEventListener('click',function(){
+      var num1 = Number(document.getElementById('textArea1').value);
+      var num2 = Number(document.getElementById('textArea2').value);
+      console.log("num1", num1)
+      console.log("num2", num2)
+      console.log("num1+num2", num1+num2)
+      if( (num1+num2) > 10){
+        console.log("합이 10보다 큼")
+      }
+      else{
+        console.log("합이 10보다 작음")
+      }
+    })
+
+    // Number() 대신에 parseInt() 사용 가능
+    // button1.addEventListener('click',function(){
+    //   if(parseInt(document.getElementById('textArea1').value)
+    //   + parseInt(document.getElementById('textArea2').value)>10){
+    //     console.log("합이 10보다 큼")
+    //   }
+    //   else{
+    //     console.log("합이 10보다 작음")
+    //   }
+    // })
+
+
+  </script>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+
+
+  /* for ( 1 ; 2 ; 4 ) {
+      3
+    }
+    1
+    234 234 234... 2가 false 될때까지
+
+    for( var i=0 ; i<10 ; i++){
+      console.log(i);
+    }
+    1: var i=0
+    2: i<10
+    3: console.log(i)
+    4: i++
+    var i=0;
+    i<10 console.log(i) i++
+  */
+
+    var cnt = 0;
+    var cnt1 = 0;
+
+    for( console.log(1) ; !console.log(2) ; console.log(4) ){
+      console.log(3)
+      cnt++
+      if(cnt == 3) break;
+    }
+/*
+    1
+    2
+    3
+    4
+    2
+    3
+    4
+    2
+    3
+*/
+
+
+    cnt = 0;
+    for( console.log('1-1') ; !console.log('1-2') ; console.log('1-4')){
+      console.log('1-3');
+      cnt1 = 0;
+      for (console.log('2-1'); !console.log('2-2'); console.log('2-4')){
+        console.log('2-3');
+        cnt1++
+        if(cnt1==3) break;
+      }
+      cnt++
+      if(cnt == 3) break;
+    }
+
+/*
+    1-1
+    1-2
+    1-3
+    2-1
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    1-4
+    1-2
+    1-3
+    2-1
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    1-4
+    1-2
+    1-3
+    2-1
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+    2-4
+    2-2
+    2-3
+*/
+
+
+
+
+  </script>
+</html>

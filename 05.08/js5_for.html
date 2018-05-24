@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+
+  </style>
+  <body>
+    <input type="button" value="% 사용" id="clickButton1">
+    <input type="button" value="i+2 사용" id="clickButton2">
+    <input type="button" value="2n+1 사용" id="clickButton3">
+    <input type="button" value="parseInt 사용 1" id="clickButton4">
+    <input type="button" value="parseInt 사용 2" id="clickButton5">
+  </body>
+  <script>
+    clickButton1.addEventListener('click',function(){
+      console.log("------------ < 1. % 사용 >------------------")
+      for(var i=0 ; i<=100 ; i++){
+        if(i%2 == 1){
+          console.log("i = ",i);
+        }
+      }
+    })
+    clickButton2.addEventListener('click',function(){
+      console.log("---- < 2-1. % 사용 X - i+2 사용 >--------")
+      for(var i=1 ; i<=100 ; i=i+2){
+          console.log("i = ",i);
+      }
+    })
+    clickButton3.addEventListener('click',function(){
+      console.log("---- < 2-2. % 사용 X - 2n+1 사용 >--------")
+      for(var i=0 ; i<50 ; i++){
+          console.log("i = ",2*i+1);
+      }
+    })
+    clickButton4.addEventListener('click',function(){
+      console.log("---- < 2-3. % 사용 X - parseInt 사용 1 >--------")
+      for(var i=0 ; i<=100 ; i++){
+        if((i/2) != parseInt((i)/2)){
+          console.log("i = ",i);
+        }
+      }
+    })
+    clickButton5.addEventListener('click',function(){
+      console.log("---- < 2-4. % 사용 X - parseInt 사용 2 >--------")
+      for(var i=0 ; i<=100 ; i++){
+        if(parseInt(i/2) != parseInt((i+1)/2)){
+          console.log("i = ",i);
+        }
+      }
+    })
+  </script>
+</html>

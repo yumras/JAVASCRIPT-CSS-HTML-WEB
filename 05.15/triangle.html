@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+  /*
+  *
+  ***
+  *****
+  *******
+  *********
+  ***********
+  *************
+  ***************
+  */
+/*
+  // 1중 포문만 쓰고
+    var out = "*";
+    for (var i=0; i<8; i++){
+      console.log(out);
+      out += "**";
+    }
+  // 2중 포문 쓰고
+    for(var i=0; i<8; i++){
+      var result="";
+      for(var j=1; j<=i*2+1; j++){
+          result += "*";
+        }
+      console.log(result)
+      }
+  // 추가 연습1 - repeat 사용
+      var one = "*";
+      for (var i=0; i<8; i++){
+        two = one.repeat((2*i)+1);
+        console.log(two);
+      }
+  // 추가 연습2 - Array 사용
+      var num1 = '*';
+      for (var i=0; i<8; i++) {
+        num2 = Array(2*(i+1)).join(num1)
+        console.log(num2);
+      }
+*/
+
+//------------------------------------------------------//
+
+
+  // 피라미드 역순
+  // 1중 포문만 쓰고
+    var out = "***************";
+    for (var i=0; i<8; i++){
+      console.log(out);
+      out = out.substring(0,out.length - 2);
+    }
+
+  // 2중 포문 쓰고
+    for(var i=0; i<8; i++){
+      var result="";
+      for(var j=0; j<15-(i*2); j++){
+          result += "*";
+        }
+      console.log(result)
+      }
+
+
+
+
+
+  </script>
+</html>

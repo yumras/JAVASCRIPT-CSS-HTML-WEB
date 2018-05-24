@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+      a>li {
+        color : red;
+      }
+      #javascript {
+        color : blue;
+      }
+      /* # = id 값에 css 스타일 넣을 때 (id는 한 문서에 한개씩만) */
+      .css {
+        color : teal;
+      }
+      /* . = class 값에 css 스타일 넣을 때 (class는 여러개 가능) */
+    </style>
+
+  </head>
+  <body>
+
+    <li>HTML</li>
+    <li id="javascript">JAVASCRIPT</li>
+    <!-- id 설정 -->
+    <li class="css">CSS</li>
+    <!-- class 설정 -->
+    <li id="javascript" class="css" style="color:darkmagenta; font-size:50px;">CSS1</li>
+    <!-- 우선순위 = 1. 내부 스타일 2. id 3. class 4. 태그 선택글(외부 스타일) -->
+    <!-- 설정 뒤에 !important 가 붙으면 붙은게 우선된다 -->
+    <a>
+      <li>css</li>
+      <div>
+        <li>css</li>
+      </div>
+    </a>
+    <li>css</li>
+    <!-- 전체 태그 말고 a 태그에만 설정하려면 a li {}(a 이하 div도 포함됨),
+    a 태그 자식태그(a 바로 밑)만 설정하려면 a>li{} -->
+  </body>
+</html>

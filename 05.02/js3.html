@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    10보다 큰가요?
+    <input type="text" id='number'>
+    <input type="button" value="판독" id='button'>
+  </body>
+  <script type="text/javascript">
+    var clickbutton = document.getElementById('button');
+
+    clickbutton.addEventListener('click'/*mouseover = 커서를 버튼 위에*/,function(){
+      var num = document.getElementById('number').value;
+      if(num>10) {
+        console.log("10보다 큼");
+      }
+      else {
+        console.log("10보다 작음");
+      }
+    });
+
+  </script>
+</html>
